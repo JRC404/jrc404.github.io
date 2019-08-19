@@ -1,0 +1,130 @@
+body {
+   font-family: 'Noto Sans', sans-serif;
+}
+
+.right-nav-bar {
+   position: fixed ;
+   height: 13vw ;
+   width: 4vw;
+   right:0vw;
+   background: rgba(236, 198, 236, 0.534);
+   top:17vw;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px;
+}
+ .insta i {
+   font-size: 2vw;
+   position: absolute;
+   left:1vw;
+   top:1vw;
+   color:#5B215E
+
+}
+ .insta i:hover {
+   color:rgb(255, 0, 255)
+}
+ .face i {
+   font-size: 2vw;
+   position: absolute;
+   left:1vw;
+   top:4vw;
+   color:#5B215E
+}
+ .face i:hover {
+   color:rgb(255, 0, 255)
+}
+ 
+ .twitter i {
+   font-size: 2vw;
+   position: absolute;
+   left:1vw;
+   top:7vw;
+   color:#5B215E
+ 
+}
+ .twitter i:hover {
+   color:rgb(255, 0, 255)
+}
+ .snap i{
+   font-size: 2vw;
+   position: absolute;
+   left:1vw;
+   top:10vw;
+   color:#5B215E
+
+}
+ .snap i:hover{
+   color:rgb(255, 0, 255)
+}
+
+
+/*CARMEN ADDED HOVER ON NAV AND LOGO ON NAV*/
+
+.nav {
+   min-height: 60px;
+   vertical-align: middle;
+   display: flex;           
+   justify-content: center;  
+   align-items: center;  
+ }
+
+.nav a:hover {
+   color: rgb(255, 0, 255) !important; 
+}
+
+.navbar-brand {
+   position: absolute;
+   top: -1vh; 
+   left: 5vw;
+}
+
+.logo-img {
+   width: 10vw;
+   min-height: 10vh;
+}
+
+/****Ends here ****   *CARMEN ADDED HOVER ON NAV AND LOGO ON NAV*/
+
+/*Carmen added collage*/
+
+.collage {
+   width: 50%; 
+   height: 100%;
+}
+
+.owners {
+   color: #802E83;
+   font-family: 'Amatic SC', cursive;
+   font-size: 25px; 
+}
+.contact {
+   color: white;
+   background-color: #802E83
+}
+
+.btn-primary {
+   background-color: #802E83;
+   border: white; 
+}
+
+.btn-primary:hover {
+   color: #802E83;
+   background-color: white; 
+}
+
+.card-img-top {
+   object-fit: cover; 
+   height: 40vh; 
+}
+
+.contact {
+   background-color: lightgrey;
+   width: 100%;
+   color: gray; 
+}
+
+@media screen and (max-width: 600px) {
+  
+  
+   }
+ 
